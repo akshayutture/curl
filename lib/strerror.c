@@ -434,7 +434,8 @@ const char *curl_url_strerror(CURLUcode error)
     return "Malformed input to a URL function";
 
   case CURLUE_BAD_PORT_NUMBER:
-    return "Port number was not a decimal number between 0 and 65535";
+    return "Port number was not a decimal number between 0 and 65535 "
+           "(a backslash in the URL is a common cause)";
 
   case CURLUE_UNSUPPORTED_SCHEME:
     return "Unsupported URL scheme";

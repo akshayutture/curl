@@ -157,7 +157,7 @@ u0: No error
 u1: An invalid CURLU pointer was passed as argument
 u2: An invalid 'part' argument was passed as argument
 u3: Malformed input to a URL function
-u4: Port number was not a decimal number between 0 and 65535
+u4: Port number was not a decimal number between 0 and 65535 (a backslash in the URL is a common cause)
 u5: Unsupported URL scheme
 u6: URL decode error, most likely because of rubbish in the input
 u7: A memory function failed
