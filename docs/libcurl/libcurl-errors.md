@@ -614,7 +614,9 @@ A malformed input was passed to a URL API function.
 
 ## CURLUE_BAD_PORT_NUMBER (4)
 
-The port number was not a decimal number between 0 and 65535.
+The port number was not a decimal number between 0 and 65535. A backslash in
+the URL is a common cause, for example when a slash was accidentally converted
+to a backslash before the URL was passed to curl.
 
 ## CURLUE_UNSUPPORTED_SCHEME (5)
 
