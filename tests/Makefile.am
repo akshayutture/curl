@@ -22,6 +22,8 @@
 #
 ###########################################################################
 
+TESTS = test_add_numbers.py
+
 # scripts used in test cases
 TESTSCRIPTS = \
   test1119.pl \
@@ -78,6 +80,7 @@ EXTRA_DIST =         \
   sshserver.pl       \
   testcurl.pl        \
   testutil.pm        \
+  test_add_numbers.py \
   tftpserver.pl      \
   util.py            \
   valgrind.pm        \
