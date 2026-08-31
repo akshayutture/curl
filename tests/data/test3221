@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<testcase>
+<info>
+<keywords>
+source analysis
+curl runner
+</keywords>
+</info>
+
+# Client-side
+<client>
+<name>
+Verify run-curl defaults and overrides
+</name>
+<command type="shell">
+%SRCDIR/run-curl-script.sh
+</command>
+</client>
+
+</testcase>

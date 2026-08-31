@@ -24,6 +24,7 @@
 
 # scripts used in test cases
 TESTSCRIPTS = \
+  run-curl-script.sh \
   test1119.pl \
   test1135.pl \
   test1139.pl \
